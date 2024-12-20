@@ -1,0 +1,266 @@
+CRITICAL - 2024-12-09 02:26:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "files/dressdetail.php"
+[Method: GET, Route: files/dress]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/dressdetail.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dressdetail', [], true)
+ 3 APPPATH\Controllers\Dresscontroller.php(15): view('files/dressdetail')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dresscontroller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dresscontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:33:21 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/14]
+in APPPATH\Views\products\edit.php on line 136.
+ 1 APPPATH\Views\products\edit.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:33:26 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/15]
+in APPPATH\Views\products\edit.php on line 136.
+ 1 APPPATH\Views\products\edit.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:34:19 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/14]
+in APPPATH\Views\products\edit.php on line 136.
+ 1 APPPATH\Views\products\edit.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:34:25 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/16]
+in APPPATH\Views\products\edit.php on line 136.
+ 1 APPPATH\Views\products\edit.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:49:27 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/38]
+in APPPATH\Views\products\edit.php on line 136.
+ 1 APPPATH\Views\products\edit.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('38')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:50:04 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/38]
+in APPPATH\Views\products\edit.php on line 137.
+ 1 APPPATH\Views\products\edit.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 137)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('38')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:50:07 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/38]
+in APPPATH\Views\products\edit.php on line 137.
+ 1 APPPATH\Views\products\edit.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 137)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('38')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 05:52:01 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/edit/38]
+in APPPATH\Views\products\edit.php on line 137.
+ 1 APPPATH\Views\products\edit.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 137)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(147): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('38')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 06:12:39 --> ErrorException: Undefined array key "discount_percentage"
+[Method: GET, Route: product/allproduct]
+in APPPATH\Views\products\allproduct.php on line 46.
+ 1 APPPATH\Views\products\allproduct.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount_percentage"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\allproduct.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/allproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(127): view('products/allproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->table()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 06:44:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "=>hbdvsJ"
+[Method: GET, Route: product/=%3EhbdvsJ]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('product/=>hbdvsJ')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('product/=>hbdvsJ')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:01:49 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 18.
+ 1 APPPATH\Controllers\Dupattacontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:02:07 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 18.
+ 1 APPPATH\Controllers\Dupattacontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:02:32 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 18.
+ 1 APPPATH\Controllers\Dupattacontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:04:35 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dupattacontroller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dupattacontroller')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Dupattacontroller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:04:48 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 18.
+ 1 APPPATH\Controllers\Dupattacontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:05:07 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 18.
+ 1 APPPATH\Controllers\Dupattacontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:05:09 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 18.
+ 1 APPPATH\Controllers\Dupattacontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:05:44 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Dupattacontroller.php on line 21.
+ 1 APPPATH\Controllers\Dupattacontroller.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Dupattacontroller.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dupattacontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dupattacontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:17:29 --> Error: Call to undefined method App\Controllers\Sareecontroller::findAll()
+[Method: GET, Route: files/saree]
+in APPPATH\Controllers\Sareecontroller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sareecontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sareecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:18:09 --> Error: Call to undefined method App\Controllers\Sareecontroller::findAll()
+[Method: GET, Route: files/saree]
+in APPPATH\Controllers\Sareecontroller.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sareecontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sareecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:25:01 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: Productcontroller-store]
+in APPPATH\Controllers\Productcontroller.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-09 10:33:30 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: Productcontroller-store]
+in APPPATH\Controllers\Productcontroller.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

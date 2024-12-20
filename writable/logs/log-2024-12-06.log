@@ -1,0 +1,745 @@
+CRITICAL - 2024-12-06 05:59:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product/category.php"
+[Method: GET, Route: category]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/category.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('product/category', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(242): view('product/category')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:27:10 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:27:47 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:27:55 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:31:27 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:31:28 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:31:28 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 06:31:33 --> ErrorException: Undefined variable $category
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(242): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:02:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/1]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:02:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/1]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:06:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/2]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:07:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/2]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:08:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/2]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:08:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/2]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:12:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/1]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:12:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: product/edit/1]
+in APPPATH\Views\products\edit.php on line 5.
+ 1 APPPATH\Views\products\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(136): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:12:48 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\CategoryModel"
+[Method: POST, Route: Productcontroller-add]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\CategoryModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Productcontroller.php(265): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->add()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:14:20 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/category" cannot be found.
+[Method: POST, Route: Productcontroller-add]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/category')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Productcontroller.php(267): redirect('/category')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->add()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:15:53 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/category" cannot be found.
+[Method: POST, Route: Productcontroller-add]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/category')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Productcontroller.php(267): redirect('/category')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->add()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:15:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/category" cannot be found.
+[Method: POST, Route: Productcontroller-add]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/category')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Productcontroller.php(267): redirect('/category')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->add()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:17:46 --> ErrorException: Undefined variable $category
+[Method: POST, Route: Productcontroller-add]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(275): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 07:26:57 --> ErrorException: Undefined variable $category
+[Method: POST, Route: Productcontroller-add]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(273): view('products/category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:10:52 --> ArgumentCountError: Too few arguments to function App\Controllers\Productcontroller::updatecategory(), 0 passed in C:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: editcategory]
+in APPPATH\Controllers\Productcontroller.php on line 311.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->updatecategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:11:35 --> ArgumentCountError: Too few arguments to function App\Controllers\Productcontroller::updatecategory(), 0 passed in C:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: editcategory]
+in APPPATH\Controllers\Productcontroller.php on line 311.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->updatecategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:12:01 --> ArgumentCountError: Too few arguments to function App\Controllers\Productcontroller::updatecategory(), 0 passed in C:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: editcategory]
+in APPPATH\Controllers\Productcontroller.php on line 311.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->updatecategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:15:58 --> ErrorException: Undefined variable $productModel
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productModel', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(250): view('products/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:16:08 --> ErrorException: Undefined variable $productModel
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 22.
+ 1 APPPATH\Views\products\category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productModel', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(250): view('products/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:16:27 --> ArgumentCountError: Too few arguments to function App\Controllers\Productcontroller::updatecategory(), 0 passed in C:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: editcategory]
+in APPPATH\Controllers\Productcontroller.php on line 311.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->updatecategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 08:26:53 --> ArgumentCountError: Too few arguments to function App\Controllers\Productcontroller::updatecategory(), 0 passed in C:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: editcategory]
+in APPPATH\Controllers\Productcontroller.php on line 311.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->updatecategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 09:32:31 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 127.
+ 1 APPPATH\Views\products\addproduct.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(16): view('products/addproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 09:32:57 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 127.
+ 1 APPPATH\Views\products\addproduct.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(16): view('products/addproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 09:33:54 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 127.
+ 1 APPPATH\Views\products\addproduct.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(16): view('products/addproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 09:33:55 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 127.
+ 1 APPPATH\Views\products\addproduct.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(16): view('products/addproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 09:33:56 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 127.
+ 1 APPPATH\Views\products\addproduct.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(16): view('products/addproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-06 09:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 09:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 09:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 10:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 10:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-06 11:27:16 --> TypeError: Unsupported operand types: string / string
+[Method: POST, Route: Productcontroller-store]
+in APPPATH\Controllers\Productcontroller.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 11:49:23 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 11:50:23 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 11:50:36 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 11:50:37 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 11:50:40 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:01:57 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:01:58 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:01:58 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:01:59 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:01:59 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:00 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:00 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:01 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:01 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:01 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:01 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:01 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:08 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:02:58 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 129.
+ 1 APPPATH\Views\products\addproduct.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:04:58 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: product/addproduct]
+in APPPATH\Views\products\addproduct.php on line 128.
+ 1 APPPATH\Views\products\addproduct.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php', 128)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/addproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(20): view('products/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-06 12:08:21 --> TypeError: Unsupported operand types: string / string
+[Method: POST, Route: Productcontroller-store]
+in APPPATH\Controllers\Productcontroller.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,928 @@
+CRITICAL - 2024-12-16 06:15:47 --> ErrorException: Undefined array key "category_name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Productcontroller.php on line 577.
+ 1 APPPATH\Controllers\Productcontroller.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Productcontroller.php', 577)
+ 2 [internal function]: App\Controllers\Productcontroller->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Productcontroller.php(576): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 06:17:14 --> ErrorException: Undefined array key "category_name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Productcontroller.php on line 577.
+ 1 APPPATH\Controllers\Productcontroller.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Productcontroller.php', 577)
+ 2 [internal function]: App\Controllers\Productcontroller->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Productcontroller.php(576): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 06:30:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "files/prodcutdetail.php"
+[Method: GET, Route: product/bhkwe]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/prodcutdetail.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/prodcutdetail', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(619): view('files/prodcutdetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->productdetail('bhkwe')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 06:31:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "files/prodcutdetail.php"
+[Method: GET, Route: product/iugwfeyk]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/prodcutdetail.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/prodcutdetail', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(619): view('files/prodcutdetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->productdetail('iugwfeyk')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 06:39:00 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: category]
+in APPPATH\Views\products\category.php on line 40.
+ 1 APPPATH\Views\products\category.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/category', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(268): view('products/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->category()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-16 07:33:12 --> mysqli_sql_exception: Unknown column 'category_name' in 'where clause' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(513): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-12-16 07:33:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category_name' in 'where clause'
+[Method: GET, Route: files/saree]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`
+WHERE `category_name` = :category_name:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Productcontroller.php(513): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:33:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'category_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `producttable`
+WHERE `category_name` = \'Saree\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `producttable`
+WHERE `category_name` = \'Saree\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`
+WHERE `category_name` = :category_name:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Productcontroller.php(513): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:33:12 --> [Caused by] mysqli_sql_exception: Unknown column 'category_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `producttable`
+WHERE `category_name` = \'Saree\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `producttable`
+WHERE `category_name` = \'Saree\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `producttable`
+WHERE `category_name` = \'Saree\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`
+WHERE `category_name` = :category_name:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Productcontroller.php(513): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-16 07:44:19 --> mysqli_sql_exception: Column 'category_id' cannot be null in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\dynamichumnafas\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#10 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-16 07:44:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+[Method: POST, Route: Productcontroller-store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335058_a61a78ba008a756b96e2.jpeg,1734335058_9efe59aefc52c967d670.jpeg,1734335058_04a9c1171bca0841197c.jpg,1734335058_bf8a52ad364a4421f331.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335058_a61a78ba008a756b96e2.jpeg,1734335058_9efe59aefc52c967d670.jpeg,1734335058_04a9c1171bca0841197c.jpg,1734335058_bf8a52ad364a4421f331.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:19 --> [Caused by] mysqli_sql_exception: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335058_a61a78ba008a756b96e2.jpeg,1734335058_9efe59aefc52c967d670.jpeg,1734335058_04a9c1171bca0841197c.jpg,1734335058_bf8a52ad364a4421f331.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335058_a61a78ba008a756b96e2.jpeg,1734335058_9efe59aefc52c967d670.jpeg,1734335058_04a9c1171bca0841197c.jpg,1734335058_bf8a52ad364a4421f331.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335058_a61a78ba008a756b96e2.jpeg,1734335058_9efe59aefc52c967d670.jpeg,1734335058_04a9c1171bca0841197c.jpg,1734335058_bf8a52ad364a4421f331.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-16 07:44:29 --> mysqli_sql_exception: Column 'category_id' cannot be null in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\dynamichumnafas\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#10 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-16 07:44:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+[Method: POST, Route: Productcontroller-store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335069_2583ee8cd91e637f7682.jpeg,1734335069_ab6edf4d4328c843795f.jpeg,1734335069_525df8c502174c31c744.jpg,1734335069_c2e07d3bbedc3a51e55d.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335069_2583ee8cd91e637f7682.jpeg,1734335069_ab6edf4d4328c843795f.jpeg,1734335069_525df8c502174c31c744.jpg,1734335069_c2e07d3bbedc3a51e55d.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:29 --> [Caused by] mysqli_sql_exception: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335069_2583ee8cd91e637f7682.jpeg,1734335069_ab6edf4d4328c843795f.jpeg,1734335069_525df8c502174c31c744.jpg,1734335069_c2e07d3bbedc3a51e55d.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335069_2583ee8cd91e637f7682.jpeg,1734335069_ab6edf4d4328c843795f.jpeg,1734335069_525df8c502174c31c744.jpg,1734335069_c2e07d3bbedc3a51e55d.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335069_2583ee8cd91e637f7682.jpeg,1734335069_ab6edf4d4328c843795f.jpeg,1734335069_525df8c502174c31c744.jpg,1734335069_c2e07d3bbedc3a51e55d.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-16 07:44:48 --> mysqli_sql_exception: Column 'category_id' cannot be null in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\dynamichumnafas\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#10 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-16 07:44:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+[Method: POST, Route: Productcontroller-store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335088_d54923da870b9c046eae.jpeg,1734335088_799ecbd6d148029e9a7d.jpeg,1734335088_ad55a83ccd2e46091efd.jpg,1734335088_90f4f1ed74b611742c7f.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335088_d54923da870b9c046eae.jpeg,1734335088_799ecbd6d148029e9a7d.jpeg,1734335088_ad55a83ccd2e46091efd.jpg,1734335088_90f4f1ed74b611742c7f.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:48 --> [Caused by] mysqli_sql_exception: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335088_d54923da870b9c046eae.jpeg,1734335088_799ecbd6d148029e9a7d.jpeg,1734335088_ad55a83ccd2e46091efd.jpg,1734335088_90f4f1ed74b611742c7f.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335088_d54923da870b9c046eae.jpeg,1734335088_799ecbd6d148029e9a7d.jpeg,1734335088_ad55a83ccd2e46091efd.jpg,1734335088_90f4f1ed74b611742c7f.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335088_d54923da870b9c046eae.jpeg,1734335088_799ecbd6d148029e9a7d.jpeg,1734335088_ad55a83ccd2e46091efd.jpg,1734335088_90f4f1ed74b611742c7f.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-16 07:44:53 --> mysqli_sql_exception: Column 'category_id' cannot be null in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\dynamichumnafas\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#10 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-16 07:44:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+[Method: POST, Route: Productcontroller-store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335093_c132c40fb4b3e330dd68.jpeg,1734335093_619fab749c513237f107.jpeg,1734335093_86dd5fd2adb57c26442a.jpg,1734335093_acf269aec586a913a056.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335093_c132c40fb4b3e330dd68.jpeg,1734335093_619fab749c513237f107.jpeg,1734335093_86dd5fd2adb57c26442a.jpg,1734335093_acf269aec586a913a056.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:44:53 --> [Caused by] mysqli_sql_exception: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335093_c132c40fb4b3e330dd68.jpeg,1734335093_619fab749c513237f107.jpeg,1734335093_86dd5fd2adb57c26442a.jpg,1734335093_acf269aec586a913a056.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335093_c132c40fb4b3e330dd68.jpeg,1734335093_619fab749c513237f107.jpeg,1734335093_86dd5fd2adb57c26442a.jpg,1734335093_acf269aec586a913a056.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335093_c132c40fb4b3e330dd68.jpeg,1734335093_619fab749c513237f107.jpeg,1734335093_86dd5fd2adb57c26442a.jpg,1734335093_acf269aec586a913a056.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-16 07:45:02 --> mysqli_sql_exception: Column 'category_id' cannot be null in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\dynamichumnafas\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#10 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-16 07:45:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+[Method: POST, Route: Productcontroller-store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:45:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335102_374e4ab2eb0df93184e6.jpeg,1734335102_f47acdd073a4d52326a6.jpeg,1734335102_2f8663ea2d05d02fc79d.jpg,1734335102_77e9587c568bad0e849a.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335102_374e4ab2eb0df93184e6.jpeg,1734335102_f47acdd073a4d52326a6.jpeg,1734335102_2f8663ea2d05d02fc79d.jpg,1734335102_77e9587c568bad0e849a.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 07:45:02 --> [Caused by] mysqli_sql_exception: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335102_374e4ab2eb0df93184e6.jpeg,1734335102_f47acdd073a4d52326a6.jpeg,1734335102_2f8663ea2d05d02fc79d.jpg,1734335102_77e9587c568bad0e849a.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335102_374e4ab2eb0df93184e6.jpeg,1734335102_f47acdd073a4d52326a6.jpeg,1734335102_2f8663ea2d05d02fc79d.jpg,1734335102_77e9587c568bad0e849a.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734335102_374e4ab2eb0df93184e6.jpeg,1734335102_f47acdd073a4d52326a6.jpeg,1734335102_2f8663ea2d05d02fc79d.jpg,1734335102_77e9587c568bad0e849a.jpeg\', \'jaipuri\', \'iugwfeyk\', NULL, \'Black and Gold Butter Silk Banarsi Saree\', \'humnafs.com\', \'6000\', \'3000\', 50, \'T6VGVJ867\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \': As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'Steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'latest_steaching\', \'green\', \'Don\\\'t use it in dry hand and hard \', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'5\', \'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:02:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "import_view.php"
+[Method: GET, Route: import]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('import_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('import_view', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(734): view('import_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->importData()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:03:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "exceldata.php"
+[Method: GET, Route: import]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('exceldata.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('exceldata', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(734): view('exceldata')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->importData()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:03:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "exceldata.php"
+[Method: GET, Route: import]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('exceldata.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('exceldata', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(734): view('exceldata')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->importData()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:10:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ route('product.upload') }}"
+[Method: POST, Route: %7B%7B%20route%28%27product.upload%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ route(\'product.upload\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ route(\'product.upload\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:13:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ route('product.upload') }}"
+[Method: POST, Route: %7B%7B%20route%28%27product.upload%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ route(\'product.upload\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ route(\'product.upload\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:16:12 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ route('product.upload') }}"
+[Method: POST, Route: %7B%7B%20route%28%27product.upload%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ route(\'product.upload\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ route(\'product.upload\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 08:16:22 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\phpF1E0.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\phpF1E0.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\phpF1E0.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\phpF1E0.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(736): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\phpF1E0.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 09:28:54 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\php5C62.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\php5C62.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\php5C62.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\php5C62.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(736): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\php5C62.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 09:28:58 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\php6C32.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\php6C32.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\php6C32.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\php6C32.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(736): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\php6C32.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 09:30:19 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\phpA9E3.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\phpA9E3.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\phpA9E3.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\phpA9E3.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(736): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\phpA9E3.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 09:31:51 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\php11B1.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\php11B1.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\php11B1.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\php11B1.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(736): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\php11B1.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 09:41:38 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\php488.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\php488.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\php488.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\php488.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(738): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\php488.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-16 09:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 09:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 09:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 09:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 10:00:15 --> Error: Class "ZipArchive" not found
+[Method: POST, Route: upload]
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 61.
+ 1 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(186): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://D:\\xampp\\tmp\\php112C.tmp#_rels/.rels')
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(78): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('D:\\xampp\\tmp\\php112C.tmp', '_rels/.rels')
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(162): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('D:\\xampp\\tmp\\php112C.tmp')
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\xampp\\tmp\\php112C.tmp', null)
+ 5 APPPATH\Controllers\Productcontroller.php(751): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\xampp\\tmp\\php112C.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->uploadData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 10:21:55 --> ErrorException: Cannot redeclare App\Controllers\Productcontroller::duppata()
+[Method: GET, Route: files/dress]
+in APPPATH\Controllers\Productcontroller.php on line 610.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2024-12-16 10:24:43 --> Fetched Products: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [slugus] => iugwfeyk
+            [category_id] => 0
+            [Productimage] => 1734266636_6b0b10718d2667cd9064.jpeg,1734266636_7e3827bf8c093b0a8c1f.jpeg,1734266636_1683e49f47eaebb931c3.jpg
+            [collection] => banarsi
+            [product_name] => Gold Crushed Tissue Silk Saree
+            [producturl] => humnafs.com
+            [productprice] => 50000.00
+            [sale_price] => 9000.00
+            [discount_perctange] => 82.00
+            [style_num] => T6VGVJ867
+            [dispatch] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [return_exchange] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [composition] => 100
+            [package_consent] => 3
+            [kurta_fabric] => pure cotton
+            [pant_fabric] => pure cotton
+            [duppata_fabric] => pure cotton
+            [neck_type] => Round
+            [sleves_type] => latest_cruve
+            [work_type] => Steching
+            [product_descripiton] => Royal blue pure butter silk handloom saree with zari work
+            [techinque] => latest_steaching
+            [colors] => Golden
+            [washinginstruction] => Don't use it in dry hand and hard chemicals
+            [fabricdetails] => Cotton that don't harm your skin
+            [productdetails] => Royal blue pure butter silk handloom saree with zari work
+            [deliverytimeline] => 07
+            [internationaldelivery] => 10
+            [created_at] => 2024-12-15 18:13:30.304707
+            [updated_at] => 2024-12-15 18:13:30.304707
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [slugus] => bhkwe
+            [category_id] => 0
+            [Productimage] => 1734270750_af1e856b53f46ba2de43.jpeg,1734270750_5dd89fdd2922ed4c3991.webp,1734270750_5eb0cc799d115f9aff3e.webp,1734270750_21348e00ea2e88940f12.webp
+            [collection] => banarsi
+            [product_name] => Gold Crushed Tissue Silk Saree
+            [producturl] => humnafs.com
+            [productprice] => 10000.00
+            [sale_price] => 8000.00
+            [discount_perctange] => 20.00
+            [style_num] => T6VGVJ86
+            [dispatch] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [return_exchange] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [composition] => 100
+            [package_consent] => 3
+            [kurta_fabric] => pure cotton
+            [pant_fabric] => pure cotton
+            [duppata_fabric] => pure cotton
+            [neck_type] => Round
+            [sleves_type] => latest_cruve
+            [work_type] => Steching
+            [product_descripiton] => Royal blue pure butter silk handloom saree with zari work
+            [techinque] => latest_new
+            [colors] => Golden
+            [washinginstruction] => Don't use it in dry hand and hard chemicals
+            [fabricdetails] => Cotton that don't harm your skin
+            [productdetails] => Royal blue pure butter silk handloom saree with zari work
+            [deliverytimeline] => 07
+            [internationaldelivery] => 10
+            [created_at] => 2024-12-15 19:22:30.508955
+            [updated_at] => 2024-12-15 19:22:30.508955
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [slugus] => iugwfeyk
+            [category_id] => 0
+            [Productimage] => 1734335105_ddf5d725cfde4dc31a47.jpeg,1734335105_f57a51f30e80ee4be3c6.jpeg,1734335105_990e668ea5d992b7dfb1.jpg,1734335105_12788f074d45dae148e0.jpeg
+            [collection] => jaipuri
+            [product_name] => Black and Gold Butter Silk Banarsi Saree
+            [producturl] => humnafs.com
+            [productprice] => 6000.00
+            [sale_price] => 3000.00
+            [discount_perctange] => 50.00
+            [style_num] => T6VGVJ867
+            [dispatch] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [return_exchange] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [composition] => 100
+            [package_consent] => 3
+            [kurta_fabric] => pure cotton
+            [pant_fabric] => pure cotton
+            [duppata_fabric] => pure cotton
+            [neck_type] => Round
+            [sleves_type] => latest_cruve
+            [work_type] => Steching
+            [product_descripiton] => Royal blue pure butter silk handloom saree with zari work
+            [techinque] => latest_steaching
+            [colors] => green
+            [washinginstruction] => Don't use it in dry hand and hard 
+            [fabricdetails] => Cotton that don't harm your skin
+            [productdetails] => Royal blue pure butter silk handloom saree with zari work
+            [deliverytimeline] => 5
+            [internationaldelivery] => 7
+            [created_at] => 2024-12-16 13:15:05.692343
+            [updated_at] => 2024-12-16 13:15:05.692343
+        )
+
+)
+
+DEBUG - 2024-12-16 10:25:16 --> Fetched Products: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [slugus] => iugwfeyk
+            [category_id] => 0
+            [Productimage] => 1734266636_6b0b10718d2667cd9064.jpeg,1734266636_7e3827bf8c093b0a8c1f.jpeg,1734266636_1683e49f47eaebb931c3.jpg
+            [collection] => banarsi
+            [product_name] => Gold Crushed Tissue Silk Saree
+            [producturl] => humnafs.com
+            [productprice] => 50000.00
+            [sale_price] => 9000.00
+            [discount_perctange] => 82.00
+            [style_num] => T6VGVJ867
+            [dispatch] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [return_exchange] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [composition] => 100
+            [package_consent] => 3
+            [kurta_fabric] => pure cotton
+            [pant_fabric] => pure cotton
+            [duppata_fabric] => pure cotton
+            [neck_type] => Round
+            [sleves_type] => latest_cruve
+            [work_type] => Steching
+            [product_descripiton] => Royal blue pure butter silk handloom saree with zari work
+            [techinque] => latest_steaching
+            [colors] => Golden
+            [washinginstruction] => Don't use it in dry hand and hard chemicals
+            [fabricdetails] => Cotton that don't harm your skin
+            [productdetails] => Royal blue pure butter silk handloom saree with zari work
+            [deliverytimeline] => 07
+            [internationaldelivery] => 10
+            [created_at] => 2024-12-15 18:13:30.304707
+            [updated_at] => 2024-12-15 18:13:30.304707
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [slugus] => bhkwe
+            [category_id] => 0
+            [Productimage] => 1734270750_af1e856b53f46ba2de43.jpeg,1734270750_5dd89fdd2922ed4c3991.webp,1734270750_5eb0cc799d115f9aff3e.webp,1734270750_21348e00ea2e88940f12.webp
+            [collection] => banarsi
+            [product_name] => Gold Crushed Tissue Silk Saree
+            [producturl] => humnafs.com
+            [productprice] => 10000.00
+            [sale_price] => 8000.00
+            [discount_perctange] => 20.00
+            [style_num] => T6VGVJ86
+            [dispatch] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [return_exchange] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [composition] => 100
+            [package_consent] => 3
+            [kurta_fabric] => pure cotton
+            [pant_fabric] => pure cotton
+            [duppata_fabric] => pure cotton
+            [neck_type] => Round
+            [sleves_type] => latest_cruve
+            [work_type] => Steching
+            [product_descripiton] => Royal blue pure butter silk handloom saree with zari work
+            [techinque] => latest_new
+            [colors] => Golden
+            [washinginstruction] => Don't use it in dry hand and hard chemicals
+            [fabricdetails] => Cotton that don't harm your skin
+            [productdetails] => Royal blue pure butter silk handloom saree with zari work
+            [deliverytimeline] => 07
+            [internationaldelivery] => 10
+            [created_at] => 2024-12-15 19:22:30.508955
+            [updated_at] => 2024-12-15 19:22:30.508955
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [slugus] => iugwfeyk
+            [category_id] => 0
+            [Productimage] => 1734335105_ddf5d725cfde4dc31a47.jpeg,1734335105_f57a51f30e80ee4be3c6.jpeg,1734335105_990e668ea5d992b7dfb1.jpg,1734335105_12788f074d45dae148e0.jpeg
+            [collection] => jaipuri
+            [product_name] => Black and Gold Butter Silk Banarsi Saree
+            [producturl] => humnafs.com
+            [productprice] => 6000.00
+            [sale_price] => 3000.00
+            [discount_perctange] => 50.00
+            [style_num] => T6VGVJ867
+            [dispatch] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [return_exchange] => : As all our outfits are handcrafted, it takes us 15-20 working days from the date of order placement to dispatch domestic as well as international order
+            [composition] => 100
+            [package_consent] => 3
+            [kurta_fabric] => pure cotton
+            [pant_fabric] => pure cotton
+            [duppata_fabric] => pure cotton
+            [neck_type] => Round
+            [sleves_type] => latest_cruve
+            [work_type] => Steching
+            [product_descripiton] => Royal blue pure butter silk handloom saree with zari work
+            [techinque] => latest_steaching
+            [colors] => green
+            [washinginstruction] => Don't use it in dry hand and hard 
+            [fabricdetails] => Cotton that don't harm your skin
+            [productdetails] => Royal blue pure butter silk handloom saree with zari work
+            [deliverytimeline] => 5
+            [internationaldelivery] => 7
+            [created_at] => 2024-12-16 13:15:05.692343
+            [updated_at] => 2024-12-16 13:15:05.692343
+        )
+
+)
+
+CRITICAL - 2024-12-16 10:54:25 --> ErrorException: Undefined array key "category_name"
+[Method: GET, Route: files/saree]
+in APPPATH\Controllers\Productcontroller.php on line 513.
+ 1 APPPATH\Controllers\Productcontroller.php(513): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Productcontroller.php', 513)
+ 2 [internal function]: App\Controllers\Productcontroller->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Productcontroller.php(512): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 11:06:48 --> ErrorException: Undefined array key "category_name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Controllers\Productcontroller.php on line 580.
+ 1 APPPATH\Controllers\Productcontroller.php(580): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Controllers\\Productcontroller.php', 580)
+ 2 [internal function]: App\Controllers\Productcontroller->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Productcontroller.php(579): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 11:43:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "files/products.php"
+[Method: GET, Route: files/dupatta]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/products.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/products', [], true)
+ 3 APPPATH\Controllers\Productcontroller.php(604): view('files/products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 11:53:22 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Views\files\dupatta.php on line 7.
+ 1 APPPATH\Views\files\dupatta.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dupatta', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(602): view('files/dupatta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 11:53:40 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Views\files\dupatta.php on line 7.
+ 1 APPPATH\Views\files\dupatta.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dupatta', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(602): view('files/dupatta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 11:53:42 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Views\files\dupatta.php on line 7.
+ 1 APPPATH\Views\files\dupatta.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dupatta', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(602): view('files/dupatta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 12:01:02 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: files/dupatta]
+in APPPATH\Views\files\dupatta.php on line 7.
+ 1 APPPATH\Views\files\dupatta.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dupatta', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(603): view('files/dupatta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,510 @@
+CRITICAL - 2024-12-15 08:00:23 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:00:25 --> ErrorException: Uncaught Error: Class "Locale" not found in D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php:140
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php(58): format_number(10.0, 2, NULL, Array)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(154): number_to_size(10.0, 2)
+#2 D:\xampp\htdocs\dynamichumnafas\app\Views\errors\html\error_exception.php(409): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(10485760)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(266): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 D:\xampp\htdocs\dynamichumnafas\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\dynamichumnafas\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+#2 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-15 08:09:01 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:09:01 --> ErrorException: Uncaught Error: Class "Locale" not found in D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php:140
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php(58): format_number(8.0, 2, NULL, Array)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(154): number_to_size(8.0, 2)
+#2 D:\xampp\htdocs\dynamichumnafas\app\Views\errors\html\error_exception.php(409): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(8388608)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(266): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 D:\xampp\htdocs\dynamichumnafas\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\dynamichumnafas\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+#2 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-15 08:09:02 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:09:02 --> ErrorException: Uncaught Error: Class "Locale" not found in D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php:140
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php(58): format_number(8.0, 2, NULL, Array)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(154): number_to_size(8.0, 2)
+#2 D:\xampp\htdocs\dynamichumnafas\app\Views\errors\html\error_exception.php(409): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(8388608)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(266): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 D:\xampp\htdocs\dynamichumnafas\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\dynamichumnafas\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+#2 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-15 08:09:03 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:09:03 --> ErrorException: Uncaught Error: Class "Locale" not found in D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php:140
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Helpers\number_helper.php(58): format_number(8.0, 2, NULL, Array)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(154): number_to_size(8.0, 2)
+#2 D:\xampp\htdocs\dynamichumnafas\app\Views\errors\html\error_exception.php(409): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(8388608)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(266): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\dynamichumnafas\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 D:\xampp\htdocs\dynamichumnafas\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\dynamichumnafas\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+#2 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-12-15 07:57:54 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'adminpanel', 3306, '', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(556): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->dress()
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(556): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->dress()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-15 07:57:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpanel'
+[Method: GET, Route: files/dress]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Productcontroller.php(556): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->dress()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 08:00:37 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'adminpanel', 3306, '', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(573): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(573): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-15 08:00:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpanel'
+[Method: GET, Route: files/dupatta]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Productcontroller.php(573): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 08:11:30 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'adminpanel', 3306, '', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(508): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(508): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-15 08:11:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpanel'
+[Method: GET, Route: files/saree]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Productcontroller.php(508): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 08:42:56 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'adminpanel', 3306, '', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(523): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->suits()
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'adminpanel' in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\dynamichumnafas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(523): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->suits()
+#7 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-15 08:42:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpanel'
+[Method: GET, Route: files/suits]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producttable`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Productcontroller.php(523): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->suits()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:43:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url();"
+[Method: GET, Route: base_url%28%29;]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url();')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url();')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:44:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url();"
+[Method: GET, Route: base_url%28%29;]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url();')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url();')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:44:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url();"
+[Method: GET, Route: base_url%28%29;]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url();')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url();')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 09:17:16 --> mysqli_sql_exception: Column 'category_id' cannot be null in D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\dynamichumnafas\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\xampp\htdocs\dynamichumnafas\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\xampp\htdocs\dynamichumnafas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\dynamichumnafas\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\dynamichumnafas\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\dynamichumnafas\app\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+#9 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+#10 D:\xampp\htdocs\dynamichumnafas\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\dynamichumnafas\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\dynamichumnafas\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-15 09:17:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+[Method: POST, Route: Productcontroller-store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 09:17:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734254236_844be1f0b8bdddff9208.jpeg,1734254236_d636c40c865c61c3e0e0.jpeg,1734254236_00ce9dc54fd51bfd1b5a.jpeg,1734254236_ea931577ccc8603a8954.jpeg\', \'banarsi\', \'bhkwe\', NULL, \'Udaipur_urbani\', \'humnafs.com\', \'9000\', \'4500\', 50, \'T6VGVJ867\', \'BDHVFVJBFVJAUKFE\', \'BDHVFVJBFVJAUKFE\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'neww\', \'red\', \'Don\\\'t use it in dry hand and hard chemicals\', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'7\', \'10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734254236_844be1f0b8bdddff9208.jpeg,1734254236_d636c40c865c61c3e0e0.jpeg,1734254236_00ce9dc54fd51bfd1b5a.jpeg,1734254236_ea931577ccc8603a8954.jpeg\', \'banarsi\', \'bhkwe\', NULL, \'Udaipur_urbani\', \'humnafs.com\', \'9000\', \'4500\', 50, \'T6VGVJ867\', \'BDHVFVJBFVJAUKFE\', \'BDHVFVJBFVJAUKFE\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'neww\', \'red\', \'Don\\\'t use it in dry hand and hard chemicals\', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'7\', \'10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 09:17:16 --> [Caused by] mysqli_sql_exception: Column 'category_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734254236_844be1f0b8bdddff9208.jpeg,1734254236_d636c40c865c61c3e0e0.jpeg,1734254236_00ce9dc54fd51bfd1b5a.jpeg,1734254236_ea931577ccc8603a8954.jpeg\', \'banarsi\', \'bhkwe\', NULL, \'Udaipur_urbani\', \'humnafs.com\', \'9000\', \'4500\', 50, \'T6VGVJ867\', \'BDHVFVJBFVJAUKFE\', \'BDHVFVJBFVJAUKFE\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'neww\', \'red\', \'Don\\\'t use it in dry hand and hard chemicals\', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'7\', \'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734254236_844be1f0b8bdddff9208.jpeg,1734254236_d636c40c865c61c3e0e0.jpeg,1734254236_00ce9dc54fd51bfd1b5a.jpeg,1734254236_ea931577ccc8603a8954.jpeg\', \'banarsi\', \'bhkwe\', NULL, \'Udaipur_urbani\', \'humnafs.com\', \'9000\', \'4500\', 50, \'T6VGVJ867\', \'BDHVFVJBFVJAUKFE\', \'BDHVFVJBFVJAUKFE\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'neww\', \'red\', \'Don\\\'t use it in dry hand and hard chemicals\', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'7\', \'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (\'1734254236_844be1f0b8bdddff9208.jpeg,1734254236_d636c40c865c61c3e0e0.jpeg,1734254236_00ce9dc54fd51bfd1b5a.jpeg,1734254236_ea931577ccc8603a8954.jpeg\', \'banarsi\', \'bhkwe\', NULL, \'Udaipur_urbani\', \'humnafs.com\', \'9000\', \'4500\', 50, \'T6VGVJ867\', \'BDHVFVJBFVJAUKFE\', \'BDHVFVJBFVJAUKFE\', \'100\', \'3\', \'pure cotton\', \'pure cotton\', \'pure cotton\', \'Round\', \'latest_cruve\', \'steching\', \'Royal blue pure butter silk handloom saree with zari work\', \'neww\', \'red\', \'Don\\\'t use it in dry hand and hard chemicals\', \'Cotton that don\\\'t harm your skin\', \'Royal blue pure butter silk handloom saree with zari work\', \'7\', \'10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producttable` (`Productimage`, `collection`, `slugus`, `category_id`, `product_name`, `producturl`, `productprice`, `sale_price`, `discount_perctange`, `style_num`, `dispatch`, `return_exchange`, `composition`, `package_consent`, `kurta_fabric`, `pant_fabric`, `duppata_fabric`, `neck_type`, `sleves_type`, `work_type`, `product_descripiton`, `techinque`, `colors`, `washinginstruction`, `fabricdetails`, `productdetails`, `deliverytimeline`, `internationaldelivery`) VALUES (:Productimage:, :collection:, :slugus:, :category_id:, :product_name:, :producturl:, :productprice:, :sale_price:, :discount_perctange:, :style_num:, :dispatch:, :return_exchange:, :composition:, :package_consent:, :kurta_fabric:, :pant_fabric:, :duppata_fabric:, :neck_type:, :sleves_type:, :work_type:, :product_descripiton:, :techinque:, :colors:, :washinginstruction:, :fabricdetails:, :productdetails:, :deliverytimeline:, :internationaldelivery:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Productcontroller.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 09:19:19 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: product/allproduct]
+in APPPATH\Views\products\allproduct.php on line 48.
+ 1 APPPATH\Views\products\allproduct.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\allproduct.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\products\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/allproduct', [], true)
+ 5 APPPATH\Controllers\Productcontroller.php(137): view('products/allproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->table()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:45:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "files/detailpage.php"
+[Method: GET, Route: files/saree]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/detailpage.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/detailpage', [], true)
+ 3 APPPATH\Views\files\saree.php(14): view('files/detailpage')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\saree.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/saree', [], true)
+ 7 APPPATH\Controllers\Productcontroller.php(516): view('files/saree', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 13:59:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/frontendfooter.php"
+[Method: GET, Route: files/dress]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/frontendfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/frontendfooter', [], true)
+ 3 APPPATH\Views\files\detailspage.php(42): view('templates/frontendfooter')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\detailspage.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/detailspage', [], true)
+ 7 APPPATH\Views\files\dress.php(14): view('files/detailspage')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dress.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dress', [], true)
+11 APPPATH\Controllers\Productcontroller.php(564): view('files/dress', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->dress()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 13:59:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/frontendfooter.php"
+[Method: GET, Route: files/suits]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/frontendfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/frontendfooter', [], true)
+ 3 APPPATH\Views\files\detailspage.php(42): view('templates/frontendfooter')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\detailspage.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/detailspage', [], true)
+ 7 APPPATH\Views\files\duppatadetailpage.php(14): view('files/detailspage')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\duppatadetailpage.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/duppatadetailpage', [], true)
+11 APPPATH\Views\files\suits.php(14): view('files/duppatadetailpage')
+12 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\suits.php')
+13 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/suits', [], true)
+15 APPPATH\Controllers\Productcontroller.php(531): view('files/suits', [...])
+16 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->suits()
+17 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+18 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 13:59:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/frontendfooter.php"
+[Method: GET, Route: files/dupatta]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/frontendfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/frontendfooter', [], true)
+ 3 APPPATH\Views\files\detailspage.php(42): view('templates/frontendfooter')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\detailspage.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/detailspage', [], true)
+ 7 APPPATH\Views\files\dupatta.php(14): view('files/detailspage')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\dupatta.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/dupatta', [], true)
+11 APPPATH\Controllers\Productcontroller.php(581): view('files/dupatta', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->duppata()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 13:59:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/frontendfooter.php"
+[Method: GET, Route: files/saree]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/frontendfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/frontendfooter', [], true)
+ 3 APPPATH\Views\files\detailspage.php(42): view('templates/frontendfooter')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\detailspage.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/detailspage', [], true)
+ 7 APPPATH\Views\files\saree.php(14): view('files/detailspage')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\dynamichumnafas\\app\\Views\\files\\saree.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('files/saree', [], true)
+11 APPPATH\Controllers\Productcontroller.php(516): view('files/saree', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productcontroller->saree()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productcontroller))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
