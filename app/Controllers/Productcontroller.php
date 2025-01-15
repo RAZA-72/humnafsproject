@@ -33,7 +33,7 @@ class Productcontroller extends BaseController
 
 
 
-    
+
 
 
     }
@@ -78,7 +78,7 @@ class Productcontroller extends BaseController
             $data = [
                 'Productimage' => $commaSeparatedImages, // Save as a single string
 
-                'collection'=>$this->request->getPost('collection'),
+                'collection' => $this->request->getPost('collection'),
                 'slugus' => $this->request->getPost('slugus'),
                 'category_id' => $this->request->getPost('category_id'),
 
@@ -91,9 +91,9 @@ class Productcontroller extends BaseController
                 'sale_price' => $discountedPrice,
 
                 'discount_perctange' => $discountedPercentage,
-                'sub_category' =>$this->request->getPost('sub_category'),
-                'styling_Inspiration'=>$this->request->getPost('styling_Inspiration'),	
-                'size_and_fit'=>$this->request->getPost('size_and_fit'),
+                'sub_category' => $this->request->getPost('sub_category'),
+                'styling_Inspiration' => $this->request->getPost('styling_Inspiration'),
+                'size_and_fit' => $this->request->getPost('size_and_fit'),
                 'style_num' => $this->request->getPost('style_num'),
                 'dispatch' => $this->request->getPost('dispatch'),
                 'return_exchange' => $this->request->getPost('dispatch'),
@@ -131,7 +131,7 @@ class Productcontroller extends BaseController
             echo "No files were uploaded.";
         }
     }
-        public function table()
+    public function table()
     {
 
 
@@ -188,7 +188,7 @@ class Productcontroller extends BaseController
 
             $data = [
                 'Productimage' => $commaSeparatedImages, // Save as a single string
-                'collection'=>$this->request->getPost('collection'),
+                'collection' => $this->request->getPost('collection'),
 
                 'slugus' => $this->request->getPost('slugus'),
                 'product_name' => $this->request->getPost('product_name'),
@@ -199,9 +199,9 @@ class Productcontroller extends BaseController
                 'productprice' => $this->request->getPost('productprice'),
 
                 'sale_price' => $this->request->getPost('sale_price'),
-                'sub_category' =>$this->request->getPost('sub_category'),
-                'styling_Inspiration'=>$this->request->getPost('styling_Inspiration'),	
-                'size_and_fit'=>$this->request->getPost('size_and_fit'),
+                'sub_category' => $this->request->getPost('sub_category'),
+                'styling_Inspiration' => $this->request->getPost('styling_Inspiration'),
+                'size_and_fit' => $this->request->getPost('size_and_fit'),
                 'style_num' => $this->request->getPost('style_num'),
                 'dispatch' => $this->request->getPost('dispatch'),
                 'return_exchange' => $this->request->getPost('dispatch'),
@@ -265,177 +265,195 @@ class Productcontroller extends BaseController
     public function category()
     {
 
-        
+
         $productModel = new CategoryModel();
-       $data['category'] = $productModel->findAll();
+        $data['category'] = $productModel->findAll();
 
 
 
         echo view('templates/commonheader')
             . view('templates/sideview')
 
-            . view('products/category',$data)
+            . view('products/category', $data)
             . view('templates/commonfotter');
-   }
+    }
 
 
-   public function add(){
+    public function add()
+    {
 
 
-    $productModel = new CategoryModel();
+        $productModel = new CategoryModel();
 
-  $data = [
+        $data = [
 
-    'category_name'=>$this->request->getPost('category_name'),
-    'slugs'=>$this->request->getPost('slugs')
-  ];
+            'category_name' => $this->request->getPost('category_name'),
+            'slugs' => $this->request->getPost('slugs')
+        ];
 
-  $productModel->insert($data);
+        $productModel->insert($data);
 
 
-  if($data){
-
-    
-
-    $output = view('templates/commonheader');
-
-    $output .= view('templates/sideview');
-
-    $output .= view('products/addcategory');
-
-    $output .= view('templates/commonfotter');
-
-    return $output;
+        if ($data) {
 
 
 
+            $output = view('templates/commonheader');
 
-  }
+            $output .= view('templates/sideview');
 
-    
-   }
+            $output .= view('products/addcategory');
 
-   
-   public function addcategory()
-   {
+            $output .= view('templates/commonfotter');
 
-       
-       $productModel = new CategoryModel();
-
-     $output = view('templates/commonheader');
-
-     $output .= view('templates/sideview');
-
-     $output .= view('products/addcategory');
-
-     $output .= view('templates/commonfotter');
-
-     return $output;
-
- 
-
-  }
-
-  public function updatecategory($id){
-
-    $category = new CategoryModel();
-
-    $data['category'] = $category->find($id);
+            return $output;
 
 
 
 
-    $output = view('templates/commonheader');
-
-    $output .= view('templates/sideview');
-
-    $output .= view('products/edicategory',$data);
-
-    $output .= view('templates/commonfotter');
-
-    return $output;
+        }
 
 
-  }
+    }
 
 
+    public function addcategory()
+    {
 
 
-   public function deletecategory($id)
-   {
-       $categoryModel = new CategoryModel();
+        $productModel = new CategoryModel();
 
-       if ($categoryModel->delete($id)) {
-           return redirect()->to('/category');
-       } else {
-           return redirect()->to('/categories')->with('error', 'Failed to delete category.');
-       }
-   }
+        $output = view('templates/commonheader');
+
+        $output .= view('templates/sideview');
+
+        $output .= view('products/addcategory');
+
+        $output .= view('templates/commonfotter');
+
+        return $output;
 
 
 
+    }
 
-  public function sendemail()
-  {
-      $contactusModel = new ContactusModel(); {
+    public function updatecategory($id)
+    {
 
-          $full_name = $this->request->getVar('full_name');
-          $email_id = $this->request->getVar('email_id');
-          $subject = $this->request->getVar('subject') ?: 'Contact Us Inquiry';
-          $whatsapp_num = $this->request->getVar('whatsapp_num');
-          $messagebox = $this->request->getVar('message');
+        $category = new CategoryModel();
 
-          $message = "<h3>Contact Details</h3>";
-          $message .= "<p><b>Name: </b>$full_name</p>";
-          $message .= "<p><b>Email: </b>$email_id</p>";
-          $message .= "<p><b>Whatsapp Number: </b>$whatsapp_num</p>";
-          $message .= "<p><b>Subject: </b>$subject</p>";
-          $message .= "<p><b>Message: </b>$messagebox</p>";
+        $data['category'] = $category->find($id);
 
-          $email = \Config\Services::email();
-          $email->setFrom('no-reply@milleniance.com', 'Humnafas');
-          $email->setTo('hasanrazzaque123@gmail.com');
-          $email->setSubject($subject);
-          $email->setMessage($message);
 
-          if ($email->send()) {
-              $data = [
-                  'full_name' => $full_name,
-                  'email_id' => $email_id,
-                  'whatsapp_num' => $whatsapp_num,
-                  'subject' => $subject,
-                  'message' => $messagebox,
-              ];
 
-              if ($contactusModel->insert($data)) {
-                  $replySubject = "Thank you for reaching out to Humnafas.";
-                  $replyMessage = "
+
+        $output = view('templates/commonheader');
+
+        $output .= view('templates/sideview');
+
+        $output .= view('products/edicategory', $data);
+
+        $output .= view('templates/commonfotter');
+
+        return $output;
+
+
+    }
+
+
+
+
+    public function deletecategory($id)
+    {
+        $categoryModel = new CategoryModel();
+
+        if ($categoryModel->delete($id)) {
+            return redirect()->to('/category');
+        } else {
+            return redirect()->to('/categories')->with('error', 'Failed to delete category.');
+        }
+    }
+
+
+
+
+    public function sendemail()
+    {
+        $contactusModel = new ContactusModel(); {
+
+            $full_name = $this->request->getVar('full_name');
+            $email_id = $this->request->getVar('email_id');
+            $subject = $this->request->getVar('subject') ?: 'Contact Us Inquiry';
+            $whatsapp_num = $this->request->getVar('whatsapp_num');
+            $messagebox = $this->request->getVar('message');
+
+            $message = "<h3>Contact Details</h3>";
+            $message .= "<p><b>Name: </b>$full_name</p>";
+            $message .= "<p><b>Email: </b>$email_id</p>";
+            $message .= "<p><b>Whatsapp Number: </b>$whatsapp_num</p>";
+            $message .= "<p><b>Subject: </b>$subject</p>";
+            $message .= "<p><b>Message: </b>$messagebox</p>";
+
+            $email = \Config\Services::email();
+            $email->setFrom('no-reply@milleniance.com', 'Humnafas');
+            $email->setTo('hasanrazzaque123@gmail.com');
+            $email->setSubject($subject);
+            $email->setMessage($message);
+
+            if ($email->send()) {
+                $data = [
+                    'full_name' => $full_name,
+                    'email_id' => $email_id,
+                    'whatsapp_num' => $whatsapp_num,
+                    'subject' => $subject,
+                    'message' => $messagebox,
+                ];
+
+                if ($contactusModel->insert($data)) {
+                    $replySubject = "Thank you for reaching out to Humnafas.";
+                    $replyMessage = "
                       Dear $full_name,<br>
-                      Thank you for contacting us. One of our team members will contact you shortly.<br><br>
+                      Thank you for contacting Humnafas! We have received your message and will get back to you as soon as possible. Your inquiries and feedback are highly valuable to us.
+
+If your inquiry is urgent, please feel free to call us at +92-123-456789 or reply to this email, and we will prioritize your request.
+
+At Humnafas, we are committed to providing the best service and support to our valued customers. Whether it's a question, feedback, or assistance you need, rest assured that our team is here to help.
+
+We appreciate your patience and look forward to assisting you soon.
+
+Best regards,
+Humnafas Support Team
+Humnafas
+Website: www.humnafas.com
+Phone: +92-123-456789
+Email: support@humnafas.com
+
+<br><br>
                       Regards,<br>
                       Humnafas Team
                   ";
 
-                  $replyEmail = \Config\Services::email();
-                  $replyEmail->setFrom('no-reply@milleniance.com', 'Humnafas');
-                  $replyEmail->setTo($email_id);
-                  $replyEmail->setSubject($replySubject);
-                  $replyEmail->setMessage($replyMessage);
+                    $replyEmail = \Config\Services::email();
+                    $replyEmail->setFrom('no-reply@milleniance.com', 'Humnafas');
+                    $replyEmail->setTo($email_id);
+                    $replyEmail->setSubject($replySubject);
+                    $replyEmail->setMessage($replyMessage);
 
-                  if ($replyEmail->send()) {
-                    return view('templates/thankyou');
-                } else {
-                    echo "Failed to send email.";
+                    if ($replyEmail->send()) {
+
+                        $output = view('templates/frontendheader');
+                        $output .= view('templates/thankyou');
+                        $output .= view('templates/frontendfotter');
+                        return $output; 
+                                        } else {
+                        echo "Failed to send email.";
+                    }
+
                 }
-                
-       
-
-              }
-          }
-      }
-  }
-
-  public function login()
+            }
+        }
+    }
+    public function login()
     {
 
         $userid = $this->request->getpost('email');
@@ -461,10 +479,15 @@ class Productcontroller extends BaseController
 
     }
 
-    public function thankyou(){
+    public function thankyou()
+    {
 
 
-        return view('templates/thankyou');
+
+        $output = view('templates/frontendheader');
+        $output .= view('templates/thankyou');
+        $output .= view('templates/frontendfotter');
+        return $output;
 
     }
 
@@ -488,181 +511,220 @@ class Productcontroller extends BaseController
         return redirect('files/acount');
 
 
-
     }
-    public function account(){
+
+    public function dashboard()
+{
+    if (!session()->get('user_id')) {
+        return redirect('files/loginuser')->with('error', 'Please log in to access the dashboard.');
+    }
+
+    $output = view('templates/frontendheader');
+    $output .= view('files/dashboard');
+    $output .= view('templates/frontendfotter');
+    return $output;
+}
+   public function loginuser()
+    {
+        $userid = $this->request->getPost('username'); 
+        $password = $this->request->getPost('password');
+    
+        $model = new UserModel();
+        $user = $model->where('email', $userid)->first(); 
+    
+        if ($user && password_verify($password, $user['password'])) { 
+            session()->set([
+                'user_id' => $user['id'],
+                'username' => $user['username'],
+            ]);
+    
+            $output = view('templates/frontendheader');
+            $output .= view('files/dashboard');
+            $output .= view('templates/frontendfotter');
+            return $output;
+        }
+        return redirect()->back()->with('error', 'Invalid email or password.');
+    }
+    
+    public function account()
+    {
 
 
 
-        $output =  view('templates/frontendheader');
+        $output = view('templates/frontendheader');
         $output .= view('files/acount');
-        $output .=view('templates/frontendfotter');
+        $output .= view('templates/frontendfotter');
         return $output;
 
     }
 
- 
 
-    public function saree(){
+
+
+    public function saree()
+    {
         $categoryModel = new CategoryModel();
         $productModel = new ProductModel();
         $categoryName = "Saree";
-    
+
         $category = $categoryModel->where('category_name', $categoryName)->first();
         if (!$category) {
             return "Category not found.";
         }
-    
+
         $categoryId = $category['id'];
         $products = $productModel->where('category_id', $categoryId)->findAll();
-    
+
         if (empty($products)) {
             return "No products found for the category '$categoryName'.";
         }
-    
-    
-        $data['products'] = $products;
-        $data['categoryName'] = $categoryName;
-    
-        return view('templates/frontendheader')
-               . view('files/saree', $data)
-               . view('templates/frontendfotter');
-    }
-    
 
 
-    
-
-
-    public function suits(){
-        
-        $categoryModel = new categoryModel();
-        $productModel = new ProductModel();
-    
-        $categoryName ="Suits";
-
-        $category = $categoryModel->where('category_name', $categoryName)->first();
-    
-        if (!$category) {
-
-            return "Category not found.";
-        }
-    
-       
-        $categoryId = $category['id'];
-
-        $products = $productModel->where('category_id', $categoryId)->findAll();
-    
-       
-        if (empty($products)) {
-            return "No products found for the category '$categoryName'.";
-        }
-    
         $data['products'] = $products;
         $data['categoryName'] = $categoryName;
 
         return view('templates/frontendheader')
-             . view('files/suits', $data)
-             . view('templates/frontendfotter');
-    }
-
-    public function orders(){
-
-        $categoryModel = new categoryModel();
-        $productModel = new ProductModel();
-    
-        $categoryName ="Corders";
-
-        $category = $categoryModel->where('category_name', $categoryName)->first();
-    
-        if (!$category) {
-
-            return "Category not found.";
-        }
-    
-       
-        $categoryId = $category['id'];
-
-        $products = $productModel->where('category_id', $categoryId)->findAll();
-    
-       
-        if (empty($products)) {
-            return "No products found for the category '$categoryName'.";
-        }
-    
-        $data['products'] = $products;
-        $data['categoryName'] = $categoryName;
-
-        return view('templates/frontendheader')
-             . view('files/orders', $data)
-             . view('templates/frontendfotter');
+            . view('files/saree', $data)
+            . view('templates/frontendfotter');
     }
 
 
-    public function dress(){
 
+
+
+
+    public function suits()
+    {
 
         $categoryModel = new categoryModel();
         $productModel = new ProductModel();
-    
-        $categoryName ="Dress";
+
+        $categoryName = "Suits";
 
         $category = $categoryModel->where('category_name', $categoryName)->first();
-    
+
         if (!$category) {
 
             return "Category not found.";
         }
-    
-       
+
+
         $categoryId = $category['id'];
 
         $products = $productModel->where('category_id', $categoryId)->findAll();
-    
-       
+
+
         if (empty($products)) {
             return "No products found for the category '$categoryName'.";
         }
-    
+
         $data['products'] = $products;
         $data['categoryName'] = $categoryName;
 
         return view('templates/frontendheader')
-             . view('files/dress', $data)
-             . view('templates/frontendfotter');
+            . view('files/suits', $data)
+            . view('templates/frontendfotter');
+    }
 
-    
+    public function orders()
+    {
+
+        $categoryModel = new categoryModel();
+        $productModel = new ProductModel();
+
+        $categoryName = "Corders";
+
+        $category = $categoryModel->where('category_name', $categoryName)->first();
+
+        if (!$category) {
+
+            return "Category not found.";
+        }
+
+
+        $categoryId = $category['id'];
+
+        $products = $productModel->where('category_id', $categoryId)->findAll();
+
+
+        if (empty($products)) {
+            return "No products found for the category '$categoryName'.";
+        }
+
+        $data['products'] = $products;
+        $data['categoryName'] = $categoryName;
+
+        return view('templates/frontendheader')
+            . view('files/orders', $data)
+            . view('templates/frontendfotter');
+    }
+
+
+    public function dress()
+    {
+
+
+        $categoryModel = new categoryModel();
+        $productModel = new ProductModel();
+
+        $categoryName = "Dress";
+
+        $category = $categoryModel->where('category_name', $categoryName)->first();
+
+        if (!$category) {
+
+            return "Category not found.";
+        }
+
+
+        $categoryId = $category['id'];
+
+        $products = $productModel->where('category_id', $categoryId)->findAll();
+
+
+        if (empty($products)) {
+            return "No products found for the category '$categoryName'.";
+        }
+
+        $data['products'] = $products;
+        $data['categoryName'] = $categoryName;
+
+        return view('templates/frontendheader')
+            . view('files/dress', $data)
+            . view('templates/frontendfotter');
+
+
     }
     public function duppata()
     {
         $categoryModel = new categoryModel();
         $productModel = new ProductModel();
-    
-        $categoryName ="Duppata";
+
+        $categoryName = "Duppata";
 
         $category = $categoryModel->where('category_name', $categoryName)->first();
-    
+
         if (!$category) {
 
             return "Category not found.";
         }
-    
-       
+
+
         $categoryId = $category['id'];
 
         $products = $productModel->where('category_id', $categoryId)->findAll();
-    
-       
+
+
         if (empty($products)) {
             return "No products found for the category '$categoryName'.";
         }
-    
+
         $data['products'] = $products;
         $data['categoryName'] = $categoryName;
 
         return view('templates/frontendheader')
-             . view('files/dupatta', $data)
-             . view('templates/frontendfotter');
+            . view('files/dupatta', $data)
+            . view('templates/frontendfotter');
     }
 
 
@@ -671,50 +733,50 @@ class Productcontroller extends BaseController
         $productModel = new ProductModel();
 
         $data['product'] = $productModel->where('slugus', $slugus)->first();
-        
+
         $data['product'] = [
             $productModel->where('slugus', $slugus)->first()
         ];
-        
+
         if (empty($data['product'][0])) {
             return view('errors/404', ['message' => 'Product not found.']);
         }
-        
+
         return view('files/productdetail', ['product' => $data['product']]);
-        
+
     }
-    
 
 
 
 
-    
-    
-    
+
+
+
+
     public function producst_category($slug)
     {
         $ProductModel = new CategoryModel();
 
-        $data['shop_detail'] = $ProductModel->where('slugs',$slug)->findAll();
+        $data['shop_detail'] = $ProductModel->where('slugs', $slug)->findAll();
 
         if (!$data['shop_detail']) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
 
 
-        // Pass data to the view
         echo view('templates/frontendheader')
-       . view('files/orders', $data)
+            . view('files/orders', $data)
             . view('templates/frontendfooter'); // Corrected spelling of 'footer'
     }
-    
-    public function cart(){
+
+    public function cart()
+    {
 
 
 
-        $output =  view('templates/frontendheader');
+        $output = view('templates/frontendheader');
         $output .= view('files/cart');
-        $output .=view('templates/frontendfotter');
+        $output .= view('templates/frontendfotter');
         return $output;
 
     }
@@ -723,136 +785,139 @@ class Productcontroller extends BaseController
     public function checkout()
     {
 
-        
-        $output =  view('templates/frontendheader');
+
+        $output = view('templates/frontendheader');
         $output .= view('files/checkout');
-        $output .=view('templates/frontendfotter');
+        $output .= view('templates/frontendfotter');
         return $output;
 
     }
-    public function wish(){
+    public function wish()
+    {
 
 
 
-        $output =  view('templates/frontendheader');
+        $output = view('templates/frontendheader');
         $output .= view('files/wish');
-        $output .=view('templates/frontendfotter');
+        $output .= view('templates/frontendfotter');
         return $output;
 
     }
-    
-        public function importData()
-        {
-            return view('files/exceldata');  
-        }
-    
 
-        
-        public function uploadData()
-        {
-            $table = 'producttable';
-            $allowedFields = [
-                'Productimage',
-                'collection',
-                'sub_category',
-                'style_num',
-                'product_name',
-                'techinque',
-                'productprice',
-                'sale_price',
-                'colors',
-                'washinginstruction',
-                'fabricdetails',
-                'package_consent',
-                'styling_Inspiration',
-                'size_and_fit',
-                'productdetails',
-                'deliverytimeline'
-            ];
-        
-            $file = $this->request->getFile('excel_file');
-        
-            if (!$file || !$file->isValid()) {
-                return redirect()->back()->with('error', 'Invalid file uploaded.');
-            }
-        
-            $fileType = $file->getClientMimeType();
-            if ($fileType !== 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' &&
-                $fileType !== 'application/vnd.ms-excel') {
-                return redirect()->back()->with('error', 'Please upload a valid Excel file.');
-            }
-        
-            try {
-                $spreadsheet = IOFactory::load($file->getTempName());
-                $sheet = $spreadsheet->getActiveSheet();
-                $data = $sheet->toArray();
-                $drawings = $sheet->getDrawingCollection(); 
-            } catch (\PhpOffice\PhpSpreadsheet\Reader\Exception $e) {
-                return redirect()->back()->with('error', 'Error reading the Excel file: ' . $e->getMessage());
-            }
-        
-            $uploadPath = FCPATH . 'assets/uploads/products/';
-            if (!is_dir($uploadPath)) {
-                mkdir($uploadPath, 0777, true); // Create the directory if it doesn't exist
-            }
-        
-            $images = [];
-            foreach ($drawings as $drawing) {
-                if ($drawing instanceof Drawing) {
-                    $coordinates = $drawing->getCoordinates(); 
-                    $imagePath = $drawing->getPath();
-                    $imageContent = file_get_contents($imagePath);
-                    $imageName = uniqid('product_', true) . '.png'; 
-                    $savedPath = $uploadPath . $imageName; 
-                    file_put_contents($savedPath, $imageContent);
-                    $images[$coordinates] = 'assets/uploads/products/' . $imageName; // Store relative path
-                }
-            }
-        
-            $db = \Config\Database::connect();
-            $builder = $db->table($table);
-        
-            $successCount = 0;
-            $errorCount = 0;
-        
-            foreach ($data as $index => $row) {
-                if ($index === 0) {
-                    continue;
-                }
-        
-                $rowData = [];
-                foreach ($allowedFields as $key => $field) {
-                    $rowData[$field] = $row[$key] ?? null;
-                }
-        
-                $imageCell = "A" . ($index + 1); 
-                if (isset($images[$imageCell])) {
-                    $rowData['Productimage'] = $images[$imageCell]; 
-                }
-        
-                try {
-                    $builder->insert($rowData);
-                    $successCount++;
-                } catch (\CodeIgniter\Database\Exceptions\DatabaseException $e) {
-                    $errorCount++;
-                    log_message('error', 'Error inserting data: ' . $e->getMessage());
-                }
-            }
-        
-            $logo = $this->request->getFile('add_logo');
-            $logoName = '';
-        
-            if ($logo && $logo->isValid() && !$logo->hasMoved()) {
-                $logoUploadPath = FCPATH . 'assets/uploads/casestudy/';
-                if (!is_dir($logoUploadPath)) {
-                    mkdir($logoUploadPath, 0777, true); // Create the directory if it doesn't exist
-                }
-        
-                $logoName = $logo->getRandomName();
-                $logo->move($logoUploadPath, $logoName);
-            }
-        
-            return redirect()->back()->with('success', "$successCount records successfully imported, $errorCount failed.");
+    public function importData()
+    {
+        return view('files/exceldata');
+    }
+
+
+
+    public function uploadData()
+    {
+        $table = 'producttable';
+        $allowedFields = [
+            'Productimage',
+            'collection',
+            'sub_category',
+            'style_num',
+            'product_name',
+            'techinque',
+            'productprice',
+            'sale_price',
+            'colors',
+            'washinginstruction',
+            'fabricdetails',
+            'package_consent',
+            'styling_Inspiration',
+            'size_and_fit',
+            'productdetails',
+            'deliverytimeline'
+        ];
+
+        $file = $this->request->getFile('excel_file');
+
+        if (!$file || !$file->isValid()) {
+            return redirect()->back()->with('error', 'Invalid file uploaded.');
         }
-        
+
+        $fileType = $file->getClientMimeType();
+        if (
+            $fileType !== 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' &&
+            $fileType !== 'application/vnd.ms-excel'
+        ) {
+            return redirect()->back()->with('error', 'Please upload a valid Excel file.');
+        }
+
+        try {
+            $spreadsheet = IOFactory::load($file->getTempName());
+            $sheet = $spreadsheet->getActiveSheet();
+            $data = $sheet->toArray();
+            $drawings = $sheet->getDrawingCollection();
+        } catch (\PhpOffice\PhpSpreadsheet\Reader\Exception $e) {
+            return redirect()->back()->with('error', 'Error reading the Excel file: ' . $e->getMessage());
+        }
+
+        $uploadPath = FCPATH . 'assets/uploads/products/';
+        if (!is_dir($uploadPath)) {
+            mkdir($uploadPath, 0777, true); // Create the directory if it doesn't exist
+        }
+
+        $images = [];
+        foreach ($drawings as $drawing) {
+            if ($drawing instanceof Drawing) {
+                $coordinates = $drawing->getCoordinates();
+                $imagePath = $drawing->getPath();
+                $imageContent = file_get_contents($imagePath);
+                $imageName = uniqid('product_', true) . '.png';
+                $savedPath = $uploadPath . $imageName;
+                file_put_contents($savedPath, $imageContent);
+                $images[$coordinates] = 'assets/uploads/products/' . $imageName; // Store relative path
+            }
+        }
+
+        $db = \Config\Database::connect();
+        $builder = $db->table($table);
+
+        $successCount = 0;
+        $errorCount = 0;
+
+        foreach ($data as $index => $row) {
+            if ($index === 0) {
+                continue;
+            }
+
+            $rowData = [];
+            foreach ($allowedFields as $key => $field) {
+                $rowData[$field] = $row[$key] ?? null;
+            }
+
+            $imageCell = "A" . ($index + 1);
+            if (isset($images[$imageCell])) {
+                $rowData['Productimage'] = $images[$imageCell];
+            }
+
+            try {
+                $builder->insert($rowData);
+                $successCount++;
+            } catch (\CodeIgniter\Database\Exceptions\DatabaseException $e) {
+                $errorCount++;
+                log_message('error', 'Error inserting data: ' . $e->getMessage());
+            }
+        }
+
+        $logo = $this->request->getFile('add_logo');
+        $logoName = '';
+
+        if ($logo && $logo->isValid() && !$logo->hasMoved()) {
+            $logoUploadPath = FCPATH . 'assets/uploads/casestudy/';
+            if (!is_dir($logoUploadPath)) {
+                mkdir($logoUploadPath, 0777, true); // Create the directory if it doesn't exist
+            }
+
+            $logoName = $logo->getRandomName();
+            $logo->move($logoUploadPath, $logoName);
+        }
+
+        return redirect()->back()->with('success', "$successCount records successfully imported, $errorCount failed.");
+    }
+
 }

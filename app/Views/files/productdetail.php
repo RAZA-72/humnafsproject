@@ -1,5 +1,4 @@
 <?= view('templates/frontendheader'); ?>
-
 <?php if (!empty($product)): ?>
   <div class="container">
     <div class="row">

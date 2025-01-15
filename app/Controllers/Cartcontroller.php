@@ -2,80 +2,67 @@
 
 namespace App\Controllers;
 
-use App\Models\CartModel;
-use App\Models\ProductModel;
+use CodeIgniter\Controller;
 
-class CartController extends BaseController
+class CartController extends Controller
 {
-    private $userId = 1; // Replace this with the logged-in user's ID
-
-    // Display the cart
-    public function index()
+    public function cart()
     {
-        $cartModel = new CartModel();
-        $cart = $cartModel->getCart($this->userId);
+        // Load the cart session or initialize it if not set
+        $session = session();
+        $cart = $session->get('cart') ?? [];
 
         return view('cart/index', ['cart' => $cart]);
     }
 
-    // Add product to the cart
-    public function add($productId)
+    public function add()
     {
-        $productModel = new ProductModel();
-        $product = $productModel->find($productId);
+        $session = session();
 
-        if (!$product) {
-            return redirect()->to('/products')->with('error', 'Product not found');
-        }
-
-        $cartModel = new CartModel();
-        $existingCart = $cartModel->where(['user_id' => $this->userId, 'product_id' => $productId])->first();
-
-        if ($existingCart) {
-            // Increment quantity if the product already exists in the cart
-            $cartModel->update($existingCart['id'], ['quantity' => $existingCart['quantity'] + 1]);
-        } else {
-            // Add new product to the cart
-            $cartModel->save([
-                'user_id' => $this->userId,
-                'product_id' => $productId,
-                'quantity' => 1,
-            ]);
-        }
-
-        return redirect()->to('/cart')->with('success', 'Product added to cart');
-    }
-
-    // Update product quantity in the cart
-    public function update($cartId)
-    {
+        // Example product data (replace with real product details from your database)
+        $productId = $this->request->getPost('id');
+        $productName = $this->request->getPost('name');
+        $productPrice = $this->request->getPost('price');
         $quantity = $this->request->getPost('quantity');
 
-        if ($quantity <= 0) {
-            return $this->remove($cartId); // Remove if quantity is 0
+        // Get the current cart from the session
+        $cart = $session->get('cart') ?? [];
+
+        // Check if the product already exists in the cart
+        if (isset($cart[$productId])) {
+            $cart[$productId]['quantity'] += $quantity;
+        } else {
+            $cart[$productId] = [
+                'id' => $productId,
+                'name' => $productName,
+                'price' => $productPrice,
+                'quantity' => $quantity,
+            ];
         }
 
-        $cartModel = new CartModel();
-        $cartModel->update($cartId, ['quantity' => $quantity]);
+        // Save the updated cart back to the session
+        $session->set('cart', $cart);
 
-        return redirect()->to('/cart')->with('success', 'Cart updated');
+        return redirect()->to('/cart')->with('success', 'Product added to cart.');
     }
 
-    // Remove product from the cart
-    public function remove($cartId)
+    public function remove($productId)
     {
-        $cartModel = new CartModel();
-        $cartModel->delete($cartId);
+        $session = session();
+        $cart = $session->get('cart') ?? [];
 
-        return redirect()->to('/cart')->with('success', 'Product removed from cart');
+        // Remove the product from the cart
+        unset($cart[$productId]);
+
+        // Save the updated cart back to the session
+        $session->set('cart', $cart);
+
+        return redirect()->to('/cart')->with('success', 'Product removed from cart.');
     }
 
-    // Clear the entire cart
     public function clear()
     {
-        $cartModel = new CartModel();
-        $cartModel->where('user_id', $this->userId)->delete();
-
-        return redirect()->to('/cart')->with('success', 'Cart cleared');
+        session()->remove('cart');
+        return redirect()->to('/cart')->with('success', 'Cart cleared.');
     }
 }

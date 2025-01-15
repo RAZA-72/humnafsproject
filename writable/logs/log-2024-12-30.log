@@ -1,0 +1,40 @@
+CRITICAL - 2024-12-30 05:34:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png"
+[Method: GET, Route: 1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-30 05:34:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png"
+[Method: GET, Route: 1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-30 05:34:10 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png"
+[Method: GET, Route: 1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-30 05:34:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png"
+[Method: GET, Route: 1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('1734607213_99931e6a93346260fbf1.png,1734607213_fb504cfcd4cdddaca00b.png,1734607213_1dacc31ce5aaa707910b.png,1734607213_7913366ca7d2575c8a49.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

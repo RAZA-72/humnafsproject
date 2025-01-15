@@ -144,7 +144,7 @@
         <label for="category">Category</label>
         <select class="form-control select-control" name="category_id" id="category" onchange="this.form.submit();">
             <option value="">Select Category</option>
-            <?php foreach ($product as $row): ?>
+            <?php foreach ($category as $row): ?>
                 <option value="<?= $row['id']; ?>" 
                     <?= (isset($_GET['category_id']) && $_GET['category_id'] == $row['id']) ? 'selected' : ''; ?>>
                     <?= esc($row['category_name']); ?>

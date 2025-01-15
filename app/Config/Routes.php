@@ -77,7 +77,10 @@ $routes->get('shop-detail/(:num)', 'Productcontroller::shop_detail/$1');
 // $routes->get('/product/(:any)', 'ProductController::productdetail/$1');
 
 // $routes->get('/product/(:segment)', 'Productcontroller::productdetail/$1');
-$routes->get('/product/(:segment)', 'ProductController::productdetail/$1');  // Display product details based on slugus
+
+$routes->get('/product/(:segment)', 'ProductController::productdetail/$1');  
+
+// Display product details based on slugus
 
 $routes->get('product-category/(:segment)', 'Productcontroller::producst_category/$1');
 
@@ -88,7 +91,7 @@ $routes->post('/sendemail', 'Productcontroller::sendemail');
 $routes->post('/register', 'Productcontroller::useregister');
 
 
-$routes->get('/thankyouser','Productcontroller::thankyou');
+$routes->get('/thankyouser', 'Productcontroller::thankyou');
 
 
 // $routes->get('/excel-import', 'Excelcontroller::upload');
@@ -99,6 +102,20 @@ $routes->get('/thankyouser','Productcontroller::thankyou');
 
 $routes->get('import', 'ProductController::importData');
 $routes->post('upload', 'ProductController::uploadData');
+
+$routes->get('/cart', 'CartController::cart');
+$routes->post('/cart/add', 'CartController::add');
+$routes->get('/cart/remove/(:num)', 'CartController::remove/$1');
+$routes->get('/cart/clear', 'CartController::clear');
+
+
+
+$routes->get('files/dashboard', 'Productcontroller::dashboard');
+
+
+
+$routes->match(['get', 'post'], 'files/loginuser', 'Productcontroller::loginuser');
+
 
 
 
